@@ -7,13 +7,10 @@
     "piece2 piece4 piece7"
     ;
     height: 70%;
-    width: 100%;
+    width: 20%;
+    margin: auto;        
 }
-.piece
-{
-    height: 100%;
-    width: 100%;
-}
+
 #piece1
 {
     grid-area: piece1;
