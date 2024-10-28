@@ -1,0 +1,50 @@
+#grille1
+{
+    
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    width: 100%;
+
+}
+.cellule
+{
+    padding: 2em;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.nbPair
+{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+#grille2
+{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    height: 300px;
+    width: 100%;
+}
+
+#grille3
+{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    height: 300px;
+    width: 100%;
+}
