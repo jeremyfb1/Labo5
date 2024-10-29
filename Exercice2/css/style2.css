@@ -1,0 +1,52 @@
+
+.puzzle
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "1 2 3"
+    "4 5 6"
+    "7 8 9"
+    ;
+}
+#piece01
+{
+    grid-area: 1;
+}
+#piece02
+{
+    grid-area: 2; 
+}
+#piece03
+{
+    grid-area: 3;
+}
+#piece04
+{
+    grid-area: 4;
+}
+#piece05
+{
+    grid-area: 5;
+}
+#piece06
+{
+    grid-area: 6;
+}
+#piece07
+{
+    grid-area: 7;
+}
+#piece08
+{
+    grid-area: 8;
+}
+#piece09
+{
+    grid-area: 9;
+}
+#piece10
+{
+    grid-area: 10;
+}
